@@ -45,7 +45,7 @@ final class QueryBuilderVisitor implements Visitor
     public function visitComparison(Expr\Comparison $comparison)
     {
         $property = $comparison->getProperty();
-        $path = $property->getPath();
+        $path = explode('.', $property->getPath());
 
         $expr = $this->builder->expr();
         $aliases = $this->builder->getAllAliases();
