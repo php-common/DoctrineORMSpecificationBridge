@@ -10,7 +10,7 @@ use InvalidArgumentException;
 /**
  * Loads a specification into a QueryBuilder.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 final class QueryBuilderVisitor implements Visitor
 {
