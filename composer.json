@@ -1,0 +1,27 @@
+{
+  "name": "phpcommon/doctrine-orm-specification-bridge",
+  "type": "library",
+  "description": "Doctrine ORM bridge for converting specifications into queries.",
+  "keywords": ["value object", "immutability", "doctrine"],
+  "homepage": "https://github.com/php-common",
+  "license": "MIT",
+  "authors": [{
+    "name": "Marcos Passos",
+    "email": "marcos@marcospassos.com"
+  }],
+  "require": {
+    "php": ">=5.4.0",
+    "doctrine/orm": "~2.5",
+    "phpcommon/specification": "~0.1@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Common\\Specification\\Doctrine\\ORM\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
