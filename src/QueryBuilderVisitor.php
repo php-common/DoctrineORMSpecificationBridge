@@ -1,6 +1,6 @@
 <?php
 
-namespace Common\Specification\Doctrine\Visitor;
+namespace Common\Specification\Doctrine\ORM\Visitor;
 
 use Common\Specification\Visitor\Visitor;
 use Common\Specification\Expression as Expr;
